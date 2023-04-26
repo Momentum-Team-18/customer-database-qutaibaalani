@@ -1,0 +1,30 @@
+.mainTitle {
+    padding-left: 250px;
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 100px;
+    color: #ffff00;
+    font-family: "Brush Script MT", cursive;
+}
+
+#customerProfiles {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    padding: 30px;
+}
+
+.page {
+    background-image: linear-gradient(to right, #9d0c0cb9, #ffff00);
+}
+
+img {
+    border-radius: 100px;
+    padding: 10px;
+    width: 100px;
+    border-right: 10px #ffff00 solid;
+    border-left: 10px #00ff1a solid;
+    border-top: 10px #ff0000 solid;
+    border-bottom: 10px #1900f7 solid;
+}
+
